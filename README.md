@@ -18,7 +18,7 @@ code along with its client secret to the oauth server in order to get the access
 
 The example application will print the authorization code exchange result to the browser. You should store these details in your persistent data store.
 
-```json
+```text
 {
     "token": {
         "access_token: "-2rAzoZRJ8HvDNJ_fCtzPOjDKhsTMtNWKmyGU6hsNW8.LvAWAV8gfAOIqkIm-C437L4RQXQPlE1ZIIZGBRXGfTg",
@@ -31,6 +31,18 @@ The example application will print the authorization code exchange result to the
 }
 ```
    
+## Running the Application
+```bash
+# Install the dependencies
+npm install
+# Set Environment Variables and Run
+# Line breaks added for readability
+CLIENT_ID=cdeaba99-df85-46e5-925a-9120aa9a76e7 \
+    CLIENT_SECRET=RYxXp9%JSqSS.$9DX?lGowE9UG \
+    LISTEN_TO=3000 \
+    CLUSTER_URL=https://auth.domain.com \
+    node index.js
+```
 
 ## License
 The example OAuth2 web application is licensed under the [MIT License](LICENSE.txt)
