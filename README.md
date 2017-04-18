@@ -1,6 +1,8 @@
 # Unite US Example OAuth 2.0 Consent
 An example web application used to capture user consent for third-party applications that connect to Unite US via OAuth 2.0.
 
+![Example Consent Flow](oauth2-consent-example.gif)
+
 ## Configuration
 The following environment variables should be provided to configure the consent application.
 
