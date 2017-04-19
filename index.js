@@ -58,7 +58,7 @@ app.get('/success', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('<div style="border:1px solid #333;background-color:#d9d9d9;width:300px;margin:25px auto;padding:20px;"><h3>OAuth 2.0 Example</h3><p>Welcome to an example user consent application.</p><div style="text-align:center;"><button style="margin:5px auto;padding:5px 10px;text-align:center;font-size:16px;" href="/auth">Log in with Unite US</button></div></div>');
+  res.send('<div style="border:1px solid #333;background-color:#d9d9d9;width:300px;margin:25px auto;padding:20px;"><h3>OAuth 2.0 Example</h3><p>Welcome to an example user consent application.</p><div style="text-align:center;"><a style="margin:5px auto;padding:5px 10px;text-align:center;font-size:16px;background-color:#cccccc;border:1px solid #333;" href="/auth">Log in with Unite US</a></div></div>');
 });
 
 app.listen(listenToPort, () => {
